@@ -40,7 +40,7 @@ for filename in os.listdir(directory):
                         print(counter_cat_a)
                         shutil.copy2('outputs/workload1.csv', 'outputs/result_1_verification.csv')
                     if(random == 2 and random_dict_task_1["2"] == 0):
-                        os.system('sshpass -p "840606@Sk" scp -vr outputs/result_1_verification.csv dipraj@172.16.117.15:/home/dipraj/tasks/')
+                        os.system('sshpass -p "password" scp -vr outputs/result_1_verification.csv username@ip:/home/username/tasks/')
                         counter_cat_a = counter_cat_a - 1
                         print("===")
                         print(datetime.datetime.now())
@@ -48,7 +48,7 @@ for filename in os.listdir(directory):
                         print("===")
                         random_dict_task_1["2"] = 1 
                     if(random == 3 and random_dict_task_1["3"] == 0):
-                        os.system('sshpass -p "senorita" scp -vr outputs/result_1_verification.csv roshan@172.16.117.8:/home/roshan/tasks/')
+                        os.system('sshpass -p "password" scp -vr outputs/result_1_verification.csv username@ip:/home/username/tasks/')
                         counter_cat_a = counter_cat_a - 1
                         print("===")
                         print(datetime.datetime.now())
@@ -56,7 +56,7 @@ for filename in os.listdir(directory):
                         print("===")                        
                         random_dict_task_1["3"] = 1 
                     if(random == 4 and random_dict_task_1["4"] == 0):
-                        os.system('sshpass -p "ani01" scp -vr outputs/result_1_verification.csv anindita@172.16.117.158:/home/anindita/tasks/')
+                        os.system('sshpass -p "password" scp -vr outputs/result_1_verification.csv username@ip:/home/username/tasks/')
                         counter_cat_a = counter_cat_a - 1
                         print("===")
                         print(datetime.datetime.now())
@@ -74,7 +74,7 @@ for filename in os.listdir(directory):
                     if(counter_cat_b == int(configparser['settings']['category_b_device'])):
                         shutil.copy2('outputs/workload2.csv', 'outputs/result_2_verification.csv')
                     if(random == 1 and random_dict_task_2["1"] == 0 ):
-                        os.system('sshpass -p "$iang_2021" scp -vr outputs/result_2_verification.csv anurag@172.16.117.201:/home/anurag/tasks/')
+                        os.system('sshpass -p "password" scp -vr outputs/result_2_verification.csv username@ip:/home/username/tasks/')
                         counter_cat_b = counter_cat_b - 1
                         print("===")
                         print(datetime.datetime.now())
@@ -82,7 +82,7 @@ for filename in os.listdir(directory):
                         print("===")
                         random_dict_task_2["1"] = 1 
                     if(random == 3 and random_dict_task_2["3"] == 0):
-                        os.system('sshpass -p "senorita" scp -vr outputs/result_2_verification.csv roshan@172.16.117.8:/home/roshan/tasks/')
+                        os.system('sshpass -p "password" scp -vr outputs/result_2_verification.csv username@ip:/home/username/tasks/')
                         counter_cat_b = counter_cat_b - 1
                         print("===")
                         print(datetime.datetime.now())
@@ -91,7 +91,7 @@ for filename in os.listdir(directory):
                         random_dict_task_2["3"] = 1 
 
                     if(random == 4 and random_dict_task_2["4"] == 0):
-                        os.system('sshpass -p "ani01" scp -vr outputs/result_2_verification.csv anindita@172.16.117.158:/home/anindita/tasks/')
+                        os.system('sshpass -p "password" scp -vr outputs/result_2_verification.csv username@ip:/home/username/tasks/')
                         counter_cat_b = counter_cat_b - 1
                         print("===")
                         print(datetime.datetime.now())
@@ -108,7 +108,7 @@ for filename in os.listdir(directory):
                     if(counter_cat_c == int(configparser['settings']['category_c_device'])):
                        shutil.copy2('outputs/workload3.csv', 'outputs/result_3_verification.csv')
                     if(random == 2 and random_dict_task_3["2"] == 0):
-                        os.system('sshpass -p "840606@Sk" scp -vr outputs/result_3_verification.csv dipraj@172.16.117.15:/home/dipraj/tasks/')
+                        os.system('sshpass -p "password" scp -vr outputs/result_3_verification.csv username@ip:/home/dipraj/tasks/')
                         counter_cat_c = counter_cat_c - 1
                         print("===")
                         print(datetime.datetime.now())
@@ -116,7 +116,7 @@ for filename in os.listdir(directory):
                         print("===")
                         random_dict_task_3["2"] = 1 
                     if(random == 1 and random_dict_task_3["1"] == 0):
-                        os.system('sshpass -p "$iang_2021" scp -vr outputs/result_3_verification.csv anurag@172.16.117.201:/home/anurag/tasks/')
+                        os.system('sshpass -p "password" scp -vr outputs/result_3_verification.csv username@ip:/home/anurag/tasks/')
                         counter_cat_c = counter_cat_c - 1
                         print("===")
                         print(datetime.datetime.now())
@@ -124,7 +124,7 @@ for filename in os.listdir(directory):
                         print("===")
                         random_dict_task_3["1"] = 1 
                     if(random == 4 and random_dict_task_3["4"] == 0):
-                        os.system('sshpass -p "ani01" scp -vr outputs/result_3_verification.csv anindita@172.16.117.158:/home/anindita/tasks/')
+                        os.system('sshpass -p "password" scp -vr outputs/result_3_verification.csv username@ip:/home/anindita/tasks/')
                         counter_cat_c = counter_cat_c - 1
                         print("===")
                         print(datetime.datetime.now())
@@ -140,7 +140,7 @@ for filename in os.listdir(directory):
                     if(counter_cat_d == int(configparser['settings']['category_d_device'])):
                        shutil.copy2('outputs/workload4.csv', 'outputs/result_4_verification.csv')
                     if(random == 1 and random_dict_task_4["1"]==0):
-                        os.system('sshpass -p "$iang_2021" scp -vr outputs/result_4_verification.csv anurag@172.16.117.201:/home/anurag/tasks/')
+                        os.system('sshpass -p "password" scp -vr outputs/result_4_verification.csv username@ip:/home/username/tasks/')
                         counter_cat_d = counter_cat_d - 1
                         print("===")
                         print(datetime.datetime.now())
@@ -148,7 +148,7 @@ for filename in os.listdir(directory):
                         print("===")
                         random_dict_task_4["1"] = 1 
                     if(random == 3 and random_dict_task_4["3"] == 0):
-                        os.system('sshpass -p "senorita" scp -vr outputs/result_4_verification.csv roshan@172.16.117.8:/home/roshan/tasks/')
+                        os.system('sshpass -p "password" scp -vr outputs/result_4_verification.csv username@ip:/home/username/tasks/')
                         counter_cat_d = counter_cat_d - 1
                         print("===")
                         print(datetime.datetime.now())
@@ -156,7 +156,7 @@ for filename in os.listdir(directory):
                         print("===")
                         random_dict_task_4["3"] = 1 
                     if(random == 2 and random_dict_task_4["2"] == 0):
-                        os.system('sshpass -p "840606@Sk" scp -vr outputs/result_4_verification.csv dipraj@172.16.117.10:/home/dipraj/tasks/')
+                        os.system('sshpass -p "password" scp -vr outputs/result_4_verification.csv username@ip:/home/username/tasks/')
                         counter_cat_d = counter_cat_d - 1
                         print("===")
                         print(datetime.datetime.now())
